@@ -37,12 +37,6 @@ void loop()
 {
   while (true)
   {
-    // 当有信号的时候
-    // if(start == 4)
-    // {
-    //   start == 0;
-    //   Serial.begin(9600);
-    // }
     if(Serial.available() > 0 )
     {
       char ch = Serial.read();
@@ -59,11 +53,6 @@ void loop()
           digitalWrite(RedLed,HIGH);
           break;
         }
-      // if(start == 4)
-      // {
-      //   Serial.end();
-      //   break;
-      // }
       }
     }
   }
