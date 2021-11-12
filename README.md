@@ -26,3 +26,5 @@ const int GreenLed = 6;  //绿灯6引脚
 const int Spin = 9;      //舵机9引脚
 ```
 **其他线自行连接**
+# 主要构思
+python处理图像，如果多次识别成功就串口发送给单片机
