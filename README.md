@@ -1,7 +1,7 @@
 # Face_recognition_opens_the_door
-人脸识别自动开门
-基于dlib库的shape_predictor_68_face_landmarks.dat训练模型
-利用arduino uno r3进行控制
+人脸识别自动开门  
+基于dlib库的shape_predictor_68_face_landmarks.dat训练模型  
+利用arduino uno r3进行控制  
 # 文件树
 ```
 │  run.py
